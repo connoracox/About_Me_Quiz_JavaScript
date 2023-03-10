@@ -14,33 +14,43 @@ function checkAnswers(){
 
     if(question1 == "The Shawshank Redemption") {
         count++
+        document.myQuiz.q1.style.backgroundColor = 'lightgreen !important'
     }
-    if(question2 ==" Into Thin Air") {
+    if(question2 =="Into Thin Air") {
         count++
+        document.myQuiz.q2.style.backgroundColor = 'lightgreen !important'
     }
     if(question3 == "yellow") {
         count++
+        document.myQuiz.q3.style.backgroundColor = 'lightgreen !important'
     }
     if(question4 == "climbing") {
         count++
+        document.myQuiz.q4.style.backgroundColor = 'lightgreen !important'
     }
     if(question5 == "tacos") {
         count++
+        document.myQuiz.q5.style.backgroundColor = 'lightgreen !important'
     }
     if(question6 == "fiddleleaf fig") {
         count++
+        document.myQuiz.q6.style.backgroundColor = 'lightgreen !important'
     }
     if(question7 == "Texas") {
         count++
+        document.myQuiz.q7.style.backgroundColor = 'lightgreen !important'
     }
     if(question8 == "Washington") {
         count++
+        document.myQuiz.q8.style.backgroundColor = 'lightgreen !important'
     }
     if(question9 == "Florida") {
         count++
+        document.myQuiz.q9.style.backgroundColor = 'lightgreen !important'
     }
     if(question10 == "Glimmer") {
         count++
+        document.myQuiz.q10.style.backgroundColor = 'lightgreen !important'
     }
 
     document.getElementById("afterSubmit").style.visibility = "visible"
