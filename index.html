@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor's Quiz</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <h1>Connor's Quiz!</h1>
+    <form name = "myQuiz" id = "myQuiz">
+        <p>Q 1. What is Connor's favorite movie?</p>
+        <input type="text" id = "textBox" name = 'q1'><br><br>
+
+        <p>Q 2. What is Connor's favorite book?</p>
+        <input type="text" id = "textBox" name = 'q2'><br><br>
+
+        <p>Q 3. What is Connor's favorite color?</p>
+        <input type="text" id = "textBox" name = 'q3'><br><br>
+
+        <p>Q 4. What is Connor's favorite outdoor sport?</p>
+        <input type="text" id = "textBox" name = 'q4'><br><br>
+
+        <p>Q 5. What is Connor's favorite food (not bread)?</p>
+        <input type="text" id = "textBox" name = 'q5'><br><br>
+
+        <p>Q 6. What is Connor's favorite plant?</p>
+        <input type="text" id = "textBox" name = 'q6'><br><br>
+
+        <p>Q 7. What state is Connor from?</p>
+        <input type="text" id = "textBox" name = 'q7'><br><br>
+
+        <p>Q 8. What state did Connor live in before Connecticut?</p>
+        <input type="text" id = "textBox" name = 'q8'><br><br>
+
+        <p>Q 9. In which state did Connor attend college?</p>
+        <input type="text" id = "textBox" name = 'q9'><br><br>
+
+        <p>Q 10. What is Connor's dog's name</p>
+        <input type="text" id = "textBox" name = 'q10'><br><br>
+
+        <input id="button" type="button" value="Submit!" onclick = "checkAnswers();">
+    </form>
+
+    <div id = "afterSubmit">
+        <p id="numberCorrect"></p>
+    </div>
+
+    
+</body>
+</html>
